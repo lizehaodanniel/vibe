@@ -48,7 +48,7 @@ Does it happens with original Whisper?
 4. Try to transcribe by execute
 
 ```console
-main.exe -m "%localappdata%\github.com.thewh1teagle.vibe\ggml-medium.bin" -f "samples_single.wav"
+main.exe -m "%localappdata%\com.daniel.aicheatcode\ggml-medium.bin" -f "samples_single.wav"
 ```
 
 </details>
@@ -64,9 +64,9 @@ In windows, open search menu and search for `Event Viewer`, choose `Windows Logs
 <summary>Find debug log file</summary>
 If you can't open the app due to crash, try to check any logs in
 
-macOS: `$HOME/Library/Application Support/github.com.thewh1teagle.vibe`
+macOS: `$HOME/Library/Application Support/com.daniel.aicheatcode`
 
-Windows: `%appdata%\github.com.thewh1teagle.vibe`
+Windows: `%appdata%\com.daniel.aicheatcode`
 
 Linux: `~/.config/github.com/thewh1teagle.vibe`
 

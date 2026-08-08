@@ -59,7 +59,7 @@ These websites may collect personal data according to their respective privacy p
 
 ### 7. Open Source
 
-**AICHeatCode** is an open-source application, and the source code is available at [github.com/thewh1teagle/vibe](https://github.com/lizehaodanniel/vibe).
+**AICHeatCode** is an open-source application, and the source code is available at [github.com/lizehaodanniel/vibe](https://github.com/lizehaodanniel/vibe).
 
 ---
 
