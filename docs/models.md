@@ -1,6 +1,6 @@
-# 🌟 Vibe Models 🌟
+# 🌟 AICHeatCode Models 🌟
 
-Welcome to the Vibe Models page! Here you can find a curated list of suggested models to use with Vibe. To install a model, use the "Magic Setup" link to open it in Vibe, or copy and paste the direct download link in Vibe settings.
+Welcome to the AICHeatCode Models page! Here you can find a curated list of suggested models to use with AICHeatCode. To install a model, use the "Magic Setup" link to open it in AICHeatCode, or copy and paste the direct download link in AICHeatCode settings.
 
 ## Available Models
 
@@ -96,7 +96,7 @@ Find the size you want, download the _ggml-model.bin_ file, rename the file, and
 </details>
 </details>
 
-Enjoy exploring these models and enhancing your Vibe! 🌐✨
+Enjoy exploring these models and enhancing your AICHeatCode! 🌐✨
 
 ### Want More?
 

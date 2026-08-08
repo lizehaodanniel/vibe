@@ -22,7 +22,7 @@ def fetch_page(session, page: int) -> str:
         headers={
             "accept": "text/html, */*; q=0.01",
             "x-requested-with": "XMLHttpRequest",
-            "referer": "https://ko-fi.com/thewh1teagle",
+            "referer": "https://ko-fi.com/aicheatcode",
         },
         impersonate="chrome",
     )

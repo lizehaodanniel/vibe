@@ -1,7 +1,7 @@
 {
 	"aborting": "रद्द कर रहा है",
 	"advanced": "उन्नत",
-	"appTitle": "AICheatCode",
+	"appTitle": "AICHeatCode",
 	"askForDownloadModel": "क्या आप वेबसाइट से मॉडल डाउनलोड करना चाहेंगे",
 	"askForInstallYtdlpMessage": "क्या आप ytdlp इंस्टॉल करना चाहते हैं जिसका उपयोग लोकप्रिय वेबसाइटों से ऑडियो डाउनलोड करने के लिए किया जाता है?",
 	"askForInstallYtdlpTitle": "Ytdlp स्थापित करें",
@@ -175,7 +175,7 @@
 	"useWordTimestamps": "प्रत्येक शब्द के टाइमस्टैम्प",
 	"whenCompletingTranscription": "लेखन पूरा होने पर",
 	"ytdlpOptions": "URL प्रतिलेखन विकल्प",
-	"ytdlpOptionsInfo": "Vibe URL प्रतिलेखन के लिए YTDLP का उपयोग करता है।",
+	"ytdlpOptionsInfo": "AICHeatCode URL प्रतिलेखन के लिए YTDLP का उपयोग करता है।",
 	"languageafrikaans": "अफ़्रीकांस",
 	"languagealbanian": "अल्बेनियाई",
 	"languageamharic": "अम्हारिक",

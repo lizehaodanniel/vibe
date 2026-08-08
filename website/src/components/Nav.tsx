@@ -19,13 +19,13 @@ export default function Nav({ locale, availableLocales, onLocaleChange }: NavPro
 				<Button variant="ghost" asChild className="text-sm lg:text-xl">
 					<Link to="/" aria-label={m.home()}>
 						<Logo className="size-7 lg:size-8" />
-						<span className="opacity-95">Vibe</span>
+						<span className="opacity-95">AICHeatCode</span>
 					</Link>
 				</Button>
 			</div>
 			<ul className="flex items-center gap-2 px-1" dir="ltr">
 				<LanguageSelector locale={locale} availableLocales={availableLocales} onLocaleChange={onLocaleChange} />
-				<a href="https://github.com/thewh1teagle/vibe" target="_blank" rel="noreferrer">
+				<a href="https://github.com/lizehaodanniel/vibe" target="_blank" rel="noreferrer">
 					<Github width="28" height="28" />
 				</a>
 			</ul>

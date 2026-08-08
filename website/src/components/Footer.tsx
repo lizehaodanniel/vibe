@@ -30,7 +30,7 @@ export default function Footer({ onOpenKofi, onOpenPrivacyPolicy }: FooterProps)
 			</nav>
 			<nav className="mt-6 flex justify-center">
 				<div className="flex items-center justify-center gap-4">
-					<a className="inline-flex size-6 items-center justify-center" href="https://github.com/thewh1teagle/vibe" target="_blank" rel="noreferrer">
+					<a className="inline-flex size-6 items-center justify-center" href="https://github.com/lizehaodanniel/vibe" target="_blank" rel="noreferrer">
 						<Github width="24" height="24" />
 					</a>
 					<div className="h-6 w-px bg-border" />
@@ -40,7 +40,7 @@ export default function Footer({ onOpenKofi, onOpenPrivacyPolicy }: FooterProps)
 				</div>
 			</nav>
 			<aside className="mt-4 text-center text-sm text-muted-foreground">
-				<p>Vibe - {m.title()}</p>
+				<p>AICHeatCode - {m.title()}</p>
 			</aside>
 		</footer>
 	)

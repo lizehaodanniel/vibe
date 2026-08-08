@@ -9,7 +9,7 @@ on:
       tag:
         description: "Release tag (e.g. v3.0.24-aic)"
         required: true
-        default: "v3.0.24-aic"
+        default: "v3.0.24"
       sign-windows:
         description: "Sign Windows binaries via remote YubiKey"
         type: boolean

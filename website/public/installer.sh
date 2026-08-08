@@ -1,14 +1,14 @@
 #!/bin/sh
 
-# Linux installer for Vibe
-# Supports Linux x86-64 with RPM / DEB / PKG / Arch (vibe-bin)
+# Linux installer for AICHeatCode
+# Supports Linux x86-64 with RPM / DEB / PKG / Arch (aicheatcode-bin)
 # Accepts tag in the first argument
 
 # Usage:
 # ./installer.sh {tag}
 
-# Available at https://thewh1teagle.github.io/vibe/installer.sh
-# Via curl -sSf https://thewh1teagle.github.io/vibe/installer.sh | sh -s {tag}
+# Available at https://lizehaodanniel.github.io/vibe/installer.sh
+# Via curl -sSf https://lizehaodanniel.github.io/vibe/installer.sh | sh -s {tag}
 
 set -e
 
@@ -39,11 +39,11 @@ case "$ARCH" in
 esac
 
 # Determine the package type and download the appropriate file
-echo "Downloading Vibe version $TAG for $ARCH..."
+echo "Downloading AICHeatCode version $TAG for $ARCH..."
 
-RPM_URL="https://github.com/thewh1teagle/vibe/releases/download/${TAG}/vibe-${TAG_WITHOUT_V}-1.${RPM_ARCH}.rpm"
-DEB_URL="https://github.com/thewh1teagle/vibe/releases/download/${TAG}/vibe_${TAG_WITHOUT_V}_${DEB_ARCH}.deb"
-echo $RPM_URL
+RPM_URL="https://github.com/lizehaodanniel/vibe/releases/download/${TAG}/AICHeatCode-${TAG_WITHOUT_V}-1.${RPM_ARCH}.rpm"
+DEB_URL="https://github.com/lizehaodanniel/vibe/releases/download/${TAG}/AICHeatCode_${TAG_WITHOUT_V}_${DEB_ARCH}.deb"
+echo $DEB_URL
 # Create temporary directory for downloading
 TEMP_DIR=$(mktemp -d)
 cd $TEMP_DIR
@@ -53,15 +53,15 @@ if [ -f /etc/os-release ]; then
     # Check for the package manager
     if grep -iq "ubuntu\|debian" /etc/os-release; then
         echo "Detected Debian/Ubuntu. Downloading DEB package..."
-        wget "$DEB_URL" -O vibe.deb
-        sudo apt-get install -y ./vibe.deb
+        wget "$DEB_URL" -O AICHeatCode.deb
+        sudo apt-get install -y ./AICHeatCode.deb
     elif grep -iq "centos\|fedora\|rhel" /etc/os-release; then
         echo "Detected CentOS/Fedora/RHEL. Downloading RPM package..."
-        wget -q "$RPM_URL" -O vibe.rpm
-        sudo rpm -ivh vibe.rpm
+        wget -q "$RPM_URL" -O AICHeatCode.rpm
+        sudo rpm -ivh AICHeatCode.rpm
     elif grep -iq "arch" /etc/os-release; then
-        echo "Detected Arch Linux. Installing vibe-bin using pacman..."
-        sudo pacman -S vibe-bin
+        echo "Detected Arch Linux. Installing aicheatcode-bin using pacman..."
+        sudo pacman -S aicheatcode-bin
     else
         echo "Unsupported Linux distribution."
         exit 1
@@ -75,6 +75,5 @@ fi
 cd ..
 rm -rf $TEMP_DIR
 
-echo "Vibe installation complete!"
-echo "Run 'vibe' to open it!"
-
+echo "AICHeatCode installation complete!"
+echo "Run 'AICHeatCode' to open it!"

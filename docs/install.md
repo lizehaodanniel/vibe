@@ -43,7 +43,7 @@ That's it! Summarization will now be active in Ollama.
 
 ## Stable Timestamps (Subtitles / Movies)
 
-Vibe includes a stable timestamp mode for tighter subtitle timing on long-form content.
+AICHeatCode includes a stable timestamp mode for tighter subtitle timing on long-form content.
 
 1. Open `More Options`.
 2. Enable `Stable timestamps`.
@@ -64,21 +64,21 @@ If you need translation, download a supported model from the [models docs](/vibe
 
 ## Manual Install 🛠️
 
-`MacOS Apple silicon`: install `aarch64.dmg` file from [releases](https://github.com/thewh1teagle/vibe/releases) **Don't forget to right click and open from Applications once**
+`MacOS Apple silicon`: install `aarch64.dmg` file from [releases](https://github.com/lizehaodanniel/vibe/releases) **Don't forget to right click and open from Applications once**
 
-`MacOS Intel`: install `x64.dmg` file from [releases](https://github.com/thewh1teagle/vibe/releases) **Don't forget to right click and open from Applications once**
+`MacOS Intel`: install `x64.dmg` file from [releases](https://github.com/lizehaodanniel/vibe/releases) **Don't forget to right click and open from Applications once**
 
-`Windows`: install `.exe` file from [releases](https://github.com/thewh1teagle/vibe/releases)
+`Windows`: install `.exe` file from [releases](https://github.com/lizehaodanniel/vibe/releases)
 
-`Linux`: install `.deb` from [releases](https://github.com/thewh1teagle/vibe/releases) (`Arch` users can use [debtap](https://aur.archlinux.org/packages/debtap))
+`Linux`: install `.deb` from [releases](https://github.com/lizehaodanniel/vibe/releases) (`Arch` users can use [debtap](https://aur.archlinux.org/packages/debtap))
 
-_All models available for manual install. see [Pre built models](https://github.com/thewh1teagle/vibe/releases/tag/v0.0.1)_
+_All models available for manual install. see [Pre built models](https://github.com/lizehaodanniel/vibe/releases/tag/v0.0.1)_
 
 ## Offline Setup 💾
 
-Offline installation with Vibe is easy: open the app, cancel the download, and navigate to the `Customize` section within settings.
+Offline installation with AICHeatCode is easy: open the app, cancel the download, and navigate to the `Customize` section within settings.
 
-_All models available for manual install. see settings or [Pre built models](https://github.com/thewh1teagle/vibe/releases/tag/v0.0.1)_
+_All models available for manual install. see settings or [Pre built models](https://github.com/lizehaodanniel/vibe/releases/tag/v0.0.1)_
 
 ## Faster transcriptions on macOS (2-3x) 🌟
 
@@ -86,7 +86,7 @@ _All models available for manual install. see settings or [Pre built models](htt
 
 - e.g. `ggml-medium-encoder.mlmodelc.zip` matches `ggml-medium-encoder.bin`
 
-2. Open models path from Vibe settings
+2. Open models path from AICHeatCode settings
 3. Drag and drop the `.mlcmodel.c` file into the models folder so that it is alongside the `.bin` file
 4. Transcribe a file, the first time you use the model it will take longer as it is compiling the model. Every subsequent time it will be faster.
 
@@ -106,14 +106,14 @@ vibe://download/?url=https://huggingface.co/ggerganov/whisper.cpp/resolve/main/g
 
 ## Usage on linux server
 
-To use Vibe on linux server you need to install fake display
+To use AICHeatCode on linux server you need to install fake display
 
 ```console
 sudo apt-get install xvfb -y
 Xvfb :1 -screen 0 1024x768x24 &
 export DISPLAY=1
 
-wget https://github.com/thewh1teagle/vibe/releases/download/v0.0.1/ggml-medium.bin
-wget https://github.com/thewh1teagle/vibe/raw/main/samples/single.wav
+wget https://github.com/lizehaodanniel/vibe/releases/download/v0.0.1/ggml-medium.bin
+wget https://github.com/lizehaodanniel/vibe/raw/main/samples/single.wav
 vibe --model ggml-medium.bin --file single.wav
 ```

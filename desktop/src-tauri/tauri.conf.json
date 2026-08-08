@@ -1,7 +1,7 @@
 {
 	"$schema": "./gen/schemas/desktop-schema.json",
-	"productName": "AICheatCode",
-	"version": "3.0.23",
+	"productName": "AICHeatCode",
+	"version": "3.0.24",
 	"identifier": "com.daniel.aicheatcode",
 	"app": {
 		"macOSPrivateApi": true,
