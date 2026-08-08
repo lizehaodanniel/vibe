@@ -13,6 +13,7 @@ import { PrivacySection } from './sections/privacy'
 import { SummarizeSection } from './sections/summarize'
 import { TranscriptionSection } from './sections/transcription'
 import { TuningSection } from './sections/tuning'
+import LicenseDialog from '~/components/license-dialog'
 
 interface SettingsPageProps {
 	setVisible: ModifyState<boolean>
@@ -69,6 +70,7 @@ export default function SettingsPage({ setVisible, scrollTo }: SettingsPageProps
 	const sections = groups.flatMap((group) => group.sections)
 
 	const [activeSection, setActiveSection] = useState<SectionId>(sections.some((s) => s.id === scrollTo) ? (scrollTo as SectionId) : 'general')
+	const [showLicense, setShowLicense] = useState(false)
 
 	return (
 		<div className="flex min-h-screen items-center justify-center p-6">
@@ -107,6 +109,12 @@ export default function SettingsPage({ setVisible, scrollTo }: SettingsPageProps
 					<p className="mt-2 border-t border-border/55 px-2.5 pt-3 font-mono text-[10px] uppercase tracking-[0.12em] text-muted-foreground/60">
 						{vm.appVersion}
 					</p>
+					<button
+						type="button"
+						onClick={() => setShowLicense(true)}
+						className="mt-1 block w-full px-2.5 text-left text-[10px] uppercase tracking-[0.12em] text-muted-foreground/60 transition-colors hover:text-primary">
+						Open Source Licenses
+					</button>
 				</div>
 
 				<div className="min-w-0 flex-1 overflow-y-auto p-6">
@@ -132,6 +140,7 @@ export default function SettingsPage({ setVisible, scrollTo }: SettingsPageProps
 					{activeSection === 'advanced' && <AdvancedSection vm={vm} />}
 				</div>
 			</div>
+			<LicenseDialog open={showLicense} onClose={() => setShowLicense(false)} />
 		</div>
 	)
 }

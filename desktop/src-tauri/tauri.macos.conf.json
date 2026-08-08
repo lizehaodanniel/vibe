@@ -3,7 +3,8 @@
 		"externalBin": ["binaries/sona", "binaries/ffmpeg"],
 		"macOS": {
 			"entitlements": "entitlements.plist",
-			"hardenedRuntime": true,
+			"hardenedRuntime": false,
+			"signingIdentity": "-",
 			"dmg": {
 				"background": "../../design/dmg_background.png",
 				"appPosition": {

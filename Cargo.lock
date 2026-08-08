@@ -18,6 +18,62 @@ dependencies = [
 ]
 
 [[package]]
+name = "aicheatcode"
+version = "0.0.6"
+dependencies = [
+ "bytemuck",
+ "bytes",
+ "chrono",
+ "cpal",
+ "crash-handler",
+ "enigo",
+ "eyre",
+ "futures",
+ "futures-util",
+ "glob",
+ "hound",
+ "libc",
+ "libc-stdhandle",
+ "objc2 0.6.4",
+ "objc2-app-kit 0.3.2",
+ "once_cell",
+ "openssl",
+ "rand 0.9.2",
+ "reqwest 0.13.2",
+ "serde",
+ "serde_json",
+ "showfile",
+ "tauri",
+ "tauri-build",
+ "tauri-plugin-aptabase",
+ "tauri-plugin-clipboard-manager",
+ "tauri-plugin-deep-link",
+ "tauri-plugin-dialog",
+ "tauri-plugin-fs",
+ "tauri-plugin-global-shortcut",
+ "tauri-plugin-http",
+ "tauri-plugin-keepawake",
+ "tauri-plugin-notification",
+ "tauri-plugin-opener",
+ "tauri-plugin-os",
+ "tauri-plugin-process",
+ "tauri-plugin-single-instance",
+ "tauri-plugin-store",
+ "tauri-plugin-updater",
+ "tauri-plugin-window-state",
+ "tokio",
+ "tokio-util",
+ "tracing",
+ "tracing-log",
+ "tracing-subscriber",
+ "url",
+ "urlencoding",
+ "which 8.0.0",
+ "windows 0.62.2",
+ "winreg",
+]
+
+[[package]]
 name = "alloc-no-stdlib"
 version = "2.0.4"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -6801,62 +6857,6 @@ name = "version_check"
 version = "0.9.5"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "0b928f33d975fc6ad9f86c8f283853ad26bdd5b10b7f1542aa2fa15e2289105a"
-
-[[package]]
-name = "vibe"
-version = "0.0.6"
-dependencies = [
- "bytemuck",
- "bytes",
- "chrono",
- "cpal",
- "crash-handler",
- "enigo",
- "eyre",
- "futures",
- "futures-util",
- "glob",
- "hound",
- "libc",
- "libc-stdhandle",
- "objc2 0.6.4",
- "objc2-app-kit 0.3.2",
- "once_cell",
- "openssl",
- "rand 0.9.2",
- "reqwest 0.13.2",
- "serde",
- "serde_json",
- "showfile",
- "tauri",
- "tauri-build",
- "tauri-plugin-aptabase",
- "tauri-plugin-clipboard-manager",
- "tauri-plugin-deep-link",
- "tauri-plugin-dialog",
- "tauri-plugin-fs",
- "tauri-plugin-global-shortcut",
- "tauri-plugin-http",
- "tauri-plugin-keepawake",
- "tauri-plugin-notification",
- "tauri-plugin-opener",
- "tauri-plugin-os",
- "tauri-plugin-process",
- "tauri-plugin-single-instance",
- "tauri-plugin-store",
- "tauri-plugin-updater",
- "tauri-plugin-window-state",
- "tokio",
- "tokio-util",
- "tracing",
- "tracing-log",
- "tracing-subscriber",
- "url",
- "urlencoding",
- "which 8.0.0",
- "windows 0.62.2",
- "winreg",
-]
 
 [[package]]
 name = "vswhom"

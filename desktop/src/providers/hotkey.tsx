@@ -216,14 +216,14 @@ export function HotkeyProvider({ children }: { children: ReactNode }) {
 					await invoke('type_text', { text: resultText })
 				} else {
 					await clipboard.writeText(resultText)
-					await notify('Vibe', m.hotkeyTranscriptionCopied())
+					await notify('AICheatCode', m.hotkeyTranscriptionCopied())
 				}
 				finishIndicator('completed', { output: hotkeyOutputModeRef.current })
 			} catch (error) {
 				console.error('Hotkey transcription error:', error)
 				const message = getErrorMessage(error)
 				finishIndicator('error', { message })
-				await notify('Vibe', message)
+				await notify('AICheatCode', message)
 			} finally {
 				isStoppingRef.current = false
 				isHotkeyRecordingRef.current = false
