@@ -17,6 +17,7 @@ from pathlib import Path
 import httpx
 
 RELEASES_PATH = Path(__file__).resolve().parent.parent / "website/src/lib/latest_release.json"
+# Our fork's release (not upstream thewh1teagle/vibe) so download buttons point here
 OWNER = "lizehaodanniel"
 REPO = "vibe"
 BLACKLIST_PATTERNS = ["opencl", "nvidia", "older", ".rpm", "portable", "cuda", "ubuntu", "setup_", "arm64-setup"]
