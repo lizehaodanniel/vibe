@@ -2,19 +2,19 @@
 
 _Last updated: 2026-02-08_
 
-Thank you for choosing **AICHeatCode**! We are committed to ensuring your privacy and data security. This policy outlines how **AICHeatCode** handles data and user privacy.
+Thank you for choosing **AICheatCode**! We are committed to ensuring your privacy and data security. This policy outlines how **AICheatCode** handles data and user privacy.
 
 ---
 
 ### 1. Offline Operation
 
-**AICHeatCode** operates fully offline. After the initial setup, where the model files are downloaded, all transcription happens entirely on your local device. No data is ever sent outside the app. **AICHeatCode** can also function completely offline, even if you disconnect your internet connection.
+**AICheatCode** operates fully offline. After the initial setup, where the model files are downloaded, all transcription happens entirely on your local device. No data is ever sent outside the app. **AICheatCode** can also function completely offline, even if you disconnect your internet connection.
 
 ---
 
 ### 2. Data Collection
 
-**AICHeatCode** collects anonymous, privacy-friendly analytics through [Aptabase](https://aptabase.com/) to help us identify and fix errors. This includes:
+**AICheatCode** collects anonymous, privacy-friendly analytics through [Aptabase](https://aptabase.com/) to help us identify and fix errors. This includes:
 
 - Event names (e.g. transcription started, failed)
 - Error messages (no file names or content)
@@ -30,13 +30,13 @@ When using the **Summarize** option in the `More Options` menu (which is off by 
 
 ### 3. Automatic Updates
 
-**AICHeatCode** supports automatic updates, which come directly from GitHub releases. No other cloud storage or external servers are involved.
+**AICheatCode** supports automatic updates, which come directly from GitHub releases. No other cloud storage or external servers are involved.
 
 ---
 
 ### 4. Third-Party Services
 
-**AICHeatCode** integrates prebuilt ffmpeg from [wang-bin/avbuild](https://github.com/wang-bin/avbuild) and uses Tauri for building the app. None of these services collect or transmit user data.
+**AICheatCode** integrates prebuilt ffmpeg from [wang-bin/avbuild](https://github.com/wang-bin/avbuild) and uses Tauri for building the app. None of these services collect or transmit user data.
 
 ---
 
@@ -48,7 +48,7 @@ There is no encryption involved in the app. Users have complete control over whe
 
 ### 6. External Links
 
-**AICHeatCode** may include links to external websites, such as:
+**AICheatCode** may include links to external websites, such as:
 
 - [GitHub](https://github.com/lizehaodanniel/vibe)
 - [Ko-Fi](https://ko-fi.com/aicheatcode)
@@ -59,7 +59,7 @@ These websites may collect personal data according to their respective privacy p
 
 ### 7. Open Source
 
-**AICHeatCode** is an open-source application, and the source code is available at [github.com/lizehaodanniel/vibe](https://github.com/lizehaodanniel/vibe).
+**AICheatCode** is an open-source application, and the source code is available at [github.com/lizehaodanniel/vibe](https://github.com/lizehaodanniel/vibe).
 
 ---
 

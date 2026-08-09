@@ -40,7 +40,7 @@ export default function Footer({ onOpenKofi, onOpenPrivacyPolicy }: FooterProps)
 				</div>
 			</nav>
 			<aside className="mt-4 text-center text-sm text-muted-foreground">
-				<p>AICHeatCode - {m.title()}</p>
+				<p>AICheatCode - {m.title()}</p>
 			</aside>
 		</footer>
 	)

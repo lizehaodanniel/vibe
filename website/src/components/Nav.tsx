@@ -1,7 +1,6 @@
 import { m } from '../paraglide/messages.js'
 import { Link } from 'react-router-dom'
 import { Button } from '~/components/ui/button'
-import Github from '~/icons/Github'
 import Logo from '~/icons/Logo'
 import type { Locale } from '../paraglide/runtime.js'
 import LanguageSelector from './LanguageSelector'
@@ -19,15 +18,12 @@ export default function Nav({ locale, availableLocales, onLocaleChange }: NavPro
 				<Button variant="ghost" asChild className="text-sm lg:text-xl">
 					<Link to="/" aria-label={m.home()}>
 						<Logo className="size-7 lg:size-8" />
-						<span className="opacity-95">AICHeatCode</span>
+						<span className="opacity-95">AICheatCode</span>
 					</Link>
 				</Button>
 			</div>
 			<ul className="flex items-center gap-2 px-1" dir="ltr">
 				<LanguageSelector locale={locale} availableLocales={availableLocales} onLocaleChange={onLocaleChange} />
-				<a href="https://github.com/lizehaodanniel/vibe" target="_blank" rel="noreferrer">
-					<Github width="28" height="28" />
-				</a>
 			</ul>
 		</div>
 	)

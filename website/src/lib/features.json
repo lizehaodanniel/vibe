@@ -1,7 +1,7 @@
 [
 	{
 		"title": "Transcribe almost every language",
-		"description": "AICHeatCode supports up to 100 languages!",
+		"description": "AICheatCode supports up to 100 languages!",
 		"imageURL": "/feature-languages.png"
 	},
 	{
@@ -47,7 +47,7 @@
 	},
 	{
 		"title": "Optimized for GPU",
-		"description": "AICHeatCode is optimized to run on Nvidia/AMD/Apple GPUs!",
+		"description": "AICheatCode is optimized to run on Nvidia/AMD/Apple GPUs!",
 		"imageURL": "/feature-gpu.png",
 		"align": "center"
 	},

@@ -1,6 +1,6 @@
 {
 	"$schema": "./gen/schemas/desktop-schema.json",
-	"productName": "AICHeatCode",
+	"productName": "AICheatCode",
 	"version": "3.0.24",
 	"identifier": "com.daniel.aicheatcode",
 	"app": {

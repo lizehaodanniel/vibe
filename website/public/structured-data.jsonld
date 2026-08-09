@@ -4,7 +4,7 @@
     {
       "@type": "Organization",
       "@id": "https://lizehaodanniel.github.io/vibe/#organization",
-      "name": "AICHeatCode",
+      "name": "AICheatCode",
       "url": "https://lizehaodanniel.github.io/vibe/",
       "logo": "https://lizehaodanniel.github.io/vibe/logo.png",
       "sameAs": [
@@ -16,7 +16,7 @@
       "@type": "WebSite",
       "@id": "https://lizehaodanniel.github.io/vibe/#website",
       "url": "https://lizehaodanniel.github.io/vibe/",
-      "name": "AICHeatCode",
+      "name": "AICheatCode",
       "publisher": {
         "@id": "https://lizehaodanniel.github.io/vibe/#organization"
       }
@@ -24,7 +24,7 @@
     {
       "@type": "SoftwareApplication",
       "@id": "https://lizehaodanniel.github.io/vibe/#app",
-      "name": "AICHeatCode",
+      "name": "AICheatCode",
       "applicationCategory": "MultimediaApplication",
       "operatingSystem": "Windows, macOS, Linux",
       "description": "Local-first transcription app for audio and video with AI summaries and multilingual support.",

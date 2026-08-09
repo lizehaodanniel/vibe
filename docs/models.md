@@ -1,6 +1,6 @@
-# 🌟 AICHeatCode Models 🌟
+# 🌟 AICheatCode Models 🌟
 
-Welcome to the AICHeatCode Models page! Here you can find a curated list of suggested models to use with AICHeatCode. To install a model, use the "Magic Setup" link to open it in AICHeatCode, or copy and paste the direct download link in AICHeatCode settings.
+Welcome to the AICheatCode Models page! Here you can find a curated list of suggested models to use with AICheatCode. To install a model, use the "Magic Setup" link to open it in AICheatCode, or copy and paste the direct download link in AICheatCode settings.
 
 ## Available Models
 
@@ -96,7 +96,7 @@ Find the size you want, download the _ggml-model.bin_ file, rename the file, and
 </details>
 </details>
 
-Enjoy exploring these models and enhancing your AICHeatCode! 🌐✨
+Enjoy exploring these models and enhancing your AICheatCode! 🌐✨
 
 ### Want More?
 

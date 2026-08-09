@@ -43,7 +43,7 @@ That's it! Summarization will now be active in Ollama.
 
 ## Stable Timestamps (Subtitles / Movies)
 
-AICHeatCode includes a stable timestamp mode for tighter subtitle timing on long-form content.
+AICheatCode includes a stable timestamp mode for tighter subtitle timing on long-form content.
 
 1. Open `More Options`.
 2. Enable `Stable timestamps`.
@@ -76,7 +76,7 @@ _All models available for manual install. see [Pre built models](https://github.
 
 ## Offline Setup 💾
 
-Offline installation with AICHeatCode is easy: open the app, cancel the download, and navigate to the `Customize` section within settings.
+Offline installation with AICheatCode is easy: open the app, cancel the download, and navigate to the `Customize` section within settings.
 
 _All models available for manual install. see settings or [Pre built models](https://github.com/lizehaodanniel/vibe/releases/tag/v0.0.1)_
 
@@ -86,7 +86,7 @@ _All models available for manual install. see settings or [Pre built models](htt
 
 - e.g. `ggml-medium-encoder.mlmodelc.zip` matches `ggml-medium-encoder.bin`
 
-2. Open models path from AICHeatCode settings
+2. Open models path from AICheatCode settings
 3. Drag and drop the `.mlcmodel.c` file into the models folder so that it is alongside the `.bin` file
 4. Transcribe a file, the first time you use the model it will take longer as it is compiling the model. Every subsequent time it will be faster.
 
@@ -106,7 +106,7 @@ vibe://download/?url=https://huggingface.co/ggerganov/whisper.cpp/resolve/main/g
 
 ## Usage on linux server
 
-To use AICHeatCode on linux server you need to install fake display
+To use AICheatCode on linux server you need to install fake display
 
 ```console
 sudo apt-get install xvfb -y

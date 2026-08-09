@@ -1,9 +1,9 @@
-# AICHeatCode
+# AICheatCode
 
 Official website: https://lizehaodanniel.github.io/vibe/
 Project repository: https://github.com/lizehaodanniel/vibe
 
-AICHeatCode is a local-first transcription app for audio and video.
+AICheatCode is a local-first transcription app for audio and video.
 
 Key pages:
 - Home: https://lizehaodanniel.github.io/vibe/

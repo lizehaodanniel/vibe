@@ -4,7 +4,6 @@ import { m } from '../paraglide/messages.js'
 import { Button } from '~/components/ui/button'
 import { Dialog, DialogContent, DialogFooter } from '~/components/ui/dialog'
 import Chip from '~/icons/Chip'
-import Github from '~/icons/Github'
 import Linux from '~/icons/Linux'
 import Mac from '~/icons/Mac'
 import Windows from '~/icons/Windows'
@@ -84,11 +83,21 @@ export default function Cta({ onOpenKofi }: CtaProps) {
 				{isMobile ? (
 					<Button onMouseDown={ctaClick}>{m.download()}</Button>
 				) : currentPlatform === 'macos' ? (
-					<Button className="hidden lg:flex" onMouseDown={ctaClick}>
-						<Mac className="size-[18px]" />
-						{m['download-for']()}
-						{asset?.platform}
-					</Button>
+					<>
+						<Button className="hidden lg:flex" asChild>
+							<a href={macSiliconAsset?.url} onClick={() => setPostDownloadOpen(true)}>
+								<Mac className="size-[18px]" />
+								{m['download-for']()}
+								{asset?.platform}
+							</a>
+						</Button>
+						<Button variant="outline" size="sm" className="hidden lg:flex" asChild>
+							<a href={macIntelAsset?.url} onClick={() => setPostDownloadOpen(true)}>
+								<Chip />
+								{m.intel()}
+							</a>
+						</Button>
+					</>
 				) : currentPlatform === 'windows' ? (
 					<Button className="hidden md:flex" asChild>
 						<a href={asset?.url} onClick={() => setPostDownloadOpen(true)}>
@@ -103,15 +112,8 @@ export default function Cta({ onOpenKofi }: CtaProps) {
 						{m['download-for']()}
 						{asset?.platform}
 					</Button>
-				) : null}
-
-				<Button variant="outline" asChild>
-					<a href="https://github.com/lizehaodanniel/vibe" target="_blank" rel="noreferrer">
-						<Github width="18" height="18" />
-						{m['star-on-github']()}
-					</a>
-				</Button>
-			</div>
+			) : null}
+		</div>
 
 			<div className="mt-2 text-center text-sm text-muted-foreground">{latestRelease.version}</div>
 
@@ -133,13 +135,13 @@ export default function Cta({ onOpenKofi }: CtaProps) {
 			)}
 
 			<div className="mt-4 flex gap-2">
-				<Button variant="ghost" size="icon" onMouseDown={() => changePlatform('macos')}>
+				<Button variant="ghost" size="icon" onMouseDown={() => changePlatform('macos')} title="macOS">
 					<Mac className="size-6" />
 				</Button>
-				<Button variant="ghost" size="icon" onClick={() => changePlatform('windows')}>
+				<Button variant="ghost" size="icon" onClick={() => changePlatform('windows')} title="Windows">
 					<Windows className="size-6" />
 				</Button>
-				<Button variant="ghost" size="icon" onClick={() => changePlatform('linux')}>
+				<Button variant="ghost" size="icon" onClick={() => changePlatform('linux')} title="Linux">
 					<Linux className="size-6" />
 				</Button>
 			</div>
